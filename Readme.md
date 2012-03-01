@@ -24,4 +24,4 @@ Neste âmbito consideram-se como requisitos mínimos para a frequência de MPD:
  
  * conhecimento de programação OO na linguagem de programação Java;
  * conhecimento das frameworks Java: Collections, IO, AWT e swing;
- * concluídas as unidades curriculares de AED e SI1.
+ * **concluídas as unidades curriculares de AED e SI1**.
