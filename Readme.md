@@ -1,4 +1,4 @@
-# Repositório de Modelação e Padrões de Desenho da turma i41N
+# Turma i41N - Repositório de Modelação e Padrões de Desenho
 
 [Wiki de MPD i41N](wiki)
 
