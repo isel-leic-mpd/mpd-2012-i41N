@@ -1,23 +1,27 @@
-# Apresentação da Unidade Curricular de MPD
+# ApresentaÃ§Ã£o da Unidade Curricular de MPD
 
-A unidade curricular de **Modelação e Padrões de Desenho (MPD)** tem como objectivo principal: 
- * **exercício da programação** Orientada por Objectos (OO) em Java.
+A unidade curricular de **ModelaÃ§Ã£ e PadrÃµes de Desenho (MPD)** tem como objectivo principal: 
+
+ * **exercÃ­cio da programaÃ§Ã£o** Orientada por Objectos (OO) em Java.
 
 e ainda **aprofundar**: 
- * **padrões de desenho** de software como descrições esquemáticas de soluções OO para problemas recorrentes;
- * a utilização de **testes unitários**, como prática essencial no desenvolvimento de software;
- * *Java Object Model*, com maior enfase nos Genéricos e Anotações;
- * a utilização da API de **reflexão** no desenvolvimento de aplicações extensíveis;
- * inversão de controlo (**IoC**) e injecção de dependências (**DI**);
- * padrões OO para acesso a dados relacionais.
 
-Não sendo um requisito assumido, no entanto os alunos já tiveram contacto com alguns padrões de desenho, tais como:
- * **Iterator** – framework de colecções;
- * **Decorator** – utilização de filtros na framework IO;
- * **Observer** – modelo de eventos em aplicações GUI (Graphical user interface);
- * **Strategy** – disposição de componentes em GUI com base em LayoutManager.
+ * **padrÃµes de desenho** de software como descriÃ§Ãµes esquemÃ¡icas de soluÃ§Ãµes OO para problemas recorrentes;
+ * a utilizaï¿½ï¿½o de **testes unitï¿½rios**, como prï¿½tica essencial no desenvolvimento de software;
+ * *Java Object Model*, com maior enfase nos Genï¿½ricos e Anotaï¿½ï¿½es;
+ * a utilizaï¿½ï¿½o da API de **reflexï¿½o** no desenvolvimento de aplicaï¿½ï¿½es extensï¿½veis;
+ * inversï¿½o de controlo (**IoC**) e injecï¿½ï¿½o de dependï¿½ncias (**DI**);
+ * padrï¿½es OO para acesso a dados relacionais.
+
+Nï¿½o sendo um requisito assumido, no entanto os alunos jï¿½ tiveram contacto com alguns padrï¿½es de desenho, tais como:
  
-Neste âmbito consideram-se como requisitos mínimos para a frequência de MPD:
- * conhecimento de programação OO na linguagem de programação Java;
+ * **Iterator** ï¿½ framework de colecï¿½ï¿½es;
+ * **Decorator** ï¿½ utilizaï¿½ï¿½o de filtros na framework IO;
+ * **Observer** ï¿½ modelo de eventos em aplicaï¿½ï¿½es GUI (Graphical user interface);
+ * **Strategy** ï¿½ disposiï¿½ï¿½o de componentes em GUI com base em LayoutManager.
+ 
+Neste ï¿½mbito consideram-se como requisitos mï¿½nimos para a frequï¿½ncia de MPD:
+ 
+ * conhecimento de programaï¿½ï¿½o OO na linguagem de programaï¿½ï¿½o Java;
  * conhecimento das frameworks Java: Collections, IO, AWT e swing;
- * concluídas as unidades curriculares de AED e SI1.
+ * concluï¿½das as unidades curriculares de AED e SI1.
