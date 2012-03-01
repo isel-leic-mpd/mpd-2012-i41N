@@ -7,21 +7,21 @@ A unidade curricular de **Modelaçã e Padrões de Desenho (MPD)** tem como obje
 e ainda **aprofundar**: 
 
  * **padrões de desenho** de software como descrições esquemáicas de soluções OO para problemas recorrentes;
- * a utiliza��o de **testes unit�rios**, como pr�tica essencial no desenvolvimento de software;
- * *Java Object Model*, com maior enfase nos Gen�ricos e Anota��es;
- * a utiliza��o da API de **reflex�o** no desenvolvimento de aplica��es extens�veis;
- * invers�o de controlo (**IoC**) e injec��o de depend�ncias (**DI**);
- * padr�es OO para acesso a dados relacionais.
+ * a utilização de **testes unitários**, como prática essencial no desenvolvimento de software;
+ * *Java Object Model*, com maior enfase nos Genéricos e Anotações;
+ * a utilização da API de **reflexão** no desenvolvimento de aplicações extensíveis;
+ * inversão de controlo (**IoC**) e injecão de dependências (**DI**);
+ * padrões OO para acesso a dados relacionais.
 
-N�o sendo um requisito assumido, no entanto os alunos j� tiveram contacto com alguns padr�es de desenho, tais como:
+Não sendo um requisito assumido, no entanto os alunos já tiveram contacto com alguns padrões de desenho, tais como:
  
- * **Iterator** � framework de colec��es;
- * **Decorator** � utiliza��o de filtros na framework IO;
- * **Observer** � modelo de eventos em aplica��es GUI (Graphical user interface);
- * **Strategy** � disposi��o de componentes em GUI com base em LayoutManager.
+ * **Iterator** - framework de coleções;
+ * **Decorator** - utilização de filtros na framework IO;
+ * **Observer** - modelo de eventos em aplicações GUI (Graphical user interface);
+ * **Strategy** - disposição de componentes em GUI com base em LayoutManager.
  
-Neste �mbito consideram-se como requisitos m�nimos para a frequ�ncia de MPD:
+Neste âmbito consideram-se como requisitos mínimos para a frequência de MPD:
  
- * conhecimento de programa��o OO na linguagem de programa��o Java;
+ * conhecimento de programação OO na linguagem de programação Java;
  * conhecimento das frameworks Java: Collections, IO, AWT e swing;
- * conclu�das as unidades curriculares de AED e SI1.
+ * concluídas as unidades curriculares de AED e SI1.
