@@ -1,4 +1,8 @@
-# Apresentação da Unidade Curricular de MPD
+# Repositório de Modelação e Padrões de Desenho da turma i41N
+
+[Wiki de MPD i41N](wiki)
+
+## Apresentação da Unidade Curricular de MPD
 
 A unidade curricular de **Modelaçã e Padrões de Desenho (MPD)** tem como objectivo principal: 
 
