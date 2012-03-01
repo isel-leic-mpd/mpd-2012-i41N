@@ -2,7 +2,7 @@
 
 A unidade curricular de **Modelaçã e Padrões de Desenho (MPD)** tem como objectivo principal: 
 
- * **exercício da programação** Orientada por Objectos (OO) em Java.
+ * o **exercício da programação** Orientada por Objectos (OO) em Java.
 
 e ainda **aprofundar**: 
 
