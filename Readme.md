@@ -1,6 +1,6 @@
 # Turma i41N - Repositório de Modelação e Padrões de Desenho
 
-**Mais informações no [Wiki de MPD i41N](wiki)**
+**Mais informações no [Wiki de MPD i41N](https://github.com/isel-leic-mpd/mpd-2012-i41N/wiki)**
 
 ## Apresentação da Unidade Curricular de MPD
 
