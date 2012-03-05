@@ -7,8 +7,8 @@
   <description>Ant build file</description>
 
   <!--++++++++++ Properties ++++++++++-->
-  <property name="src-main" location="src/java/main"/>
-  <property name="src-test" location="src/java/test"/>
+  <property name="src-main" location="src/main/java"/>
+  <property name="src-test" location="src/test/java"/>
   <property name="target"  location="target"/>
   <property name="target-classes"  location="target/classes"/>
   <property name="target-test-classes"  location="target/test-classes"/>
