@@ -1,6 +1,6 @@
 package cmdsh.args;
 
-import cmdsh.core.BadArgumentException;
+import cmdsh.core.MalformedArgumentException;
 import cmdsh.core.IArgument;
 
 public class ArgPairNameValue implements IArgument<String>{
@@ -13,7 +13,9 @@ public class ArgPairNameValue implements IArgument<String>{
 	@Override
 	public int parse(String[] args, int from) {
 		if(args[from].equals(name)){
-			if(++from >= args.length) throw new BadArgumentException();
+			if(++from >= args.length) 
+				throw new MalformedArgumentException(
+						String.format("Argument %s missing value!", name));
 			value = args[from];
 			return from + 1;
 		}
