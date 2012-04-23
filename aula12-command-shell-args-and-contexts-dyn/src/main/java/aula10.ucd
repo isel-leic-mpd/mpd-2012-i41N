@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="aula10" size="1081,703" id="" metadata="uml2-1.0" initialized="true" scrolledY="107" tag="1000" key="32303037303533312D313030302061756C6131302D636F6D6D616E642D7368656C6C2D617267732D616E642D636F6E74657874732F6D63617276616C686F">
+  <children xsi:type="editmodel:ClassEditModel" name="App" location="15,98" size="72,83" id="cmdsh/App" runTimeClassModel="main([Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="49,17">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="cmdsh/App#main([Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="cmdsh/App-Standard::Call->cmdsh.core/Context*cmdsh/App-Soyatec::Import->cmdsh.core/Context" source="//@children.0" target="//@children.10" targetEnd="//@children.0/@sourceConnections.0/@children.2" label="//@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" location="54,43" size="77,15" automaticRelocationAllowed="false" locationOnWireFromSource="-14.40588115197074" distanceFromWire="34.29971702850177" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="26,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,64"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.5/@sourceConnections.0 //@children.10/@sourceConnections.0" name="ICommand" location="390,30" size="146,132" id="cmdsh.core/ICommand" runTimeClassModel="args(),getName(),performCommand(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="204,51">
+      <children xsi:type="editmodel:MethodEditModel" name="args" id="cmdsh.core/ICommand#args()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getName" id="cmdsh.core/ICommand#getName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="performCommand" id="cmdsh.core/ICommand#performCommand(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="GitAdd" location="15,460" size="145,100" id="cmdsh.commands/GitAdd" runTimeClassModel="GitAdd(),executeCommand()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="122,34">
+      <children xsi:type="editmodel:MethodEditModel" name="GitAdd" id="cmdsh.commands/GitAdd#GitAdd()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="executeCommand" id="cmdsh.commands/GitAdd#executeCommand()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="cmdsh.core/AbstractCommand&lt;-cmdsh.commands/GitAdd" source="//@children.2" target="//@children.3/@sourceConnections.0" targetEnd="//@children.2/@sourceConnections.0/@children.1" sourceEnd="//@children.2/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="72,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="GitRemoteAdd" location="159,460" size="145,100" id="cmdsh.commands/GitRemoteAdd" runTimeClassModel="GitRemoteAdd(),executeCommand()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="122,34">
+      <children xsi:type="editmodel:MethodEditModel" name="GitRemoteAdd" id="cmdsh.commands/GitRemoteAdd#GitRemoteAdd()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="executeCommand" id="cmdsh.commands/GitRemoteAdd#executeCommand()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.4/@sourceConnections.0 //@children.2/@sourceConnections.0" autoLocated="true" id="cmdsh.core/AbstractCommand&lt;-cmdsh.commands/GitRemoteAdd" source="//@children.3" target="//@children.5" targetEnd="//@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.3/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="72,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="77,147" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="GitCommit" location="311,460" size="145,100" id="cmdsh.commands/GitCommit" runTimeClassModel="GitCommit(),executeCommand()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="122,34">
+      <children xsi:type="editmodel:MethodEditModel" name="GitCommit" id="cmdsh.commands/GitCommit#GitCommit()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="executeCommand" id="cmdsh.commands/GitCommit#executeCommand()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="cmdsh.core/AbstractCommand&lt;-cmdsh.commands/GitCommit" source="//@children.4" target="//@children.3/@sourceConnections.0" targetEnd="//@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.4/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="72,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.3/@sourceConnections.0" name="AbstractCommand" location="270,240" size="157,150" id="cmdsh.core/AbstractCommand" runTimeClassModel="args(),getName(),performCommand(Ljava.lang.String;),AbstractCommand(Ljava.lang.String;Lcmdsh.core.IParamsParser;[Lcmdsh.core.IArgument;),executeCommand()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="462,85">
+      <children xsi:type="editmodel:MethodEditModel" name="AbstractCommand" id="cmdsh.core/AbstractCommand#AbstractCommand(Ljava.lang.String;Lcmdsh.core.IParamsParser;[Lcmdsh.core.IArgument;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="args" id="cmdsh.core/AbstractCommand#args()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="executeCommand" id="cmdsh.core/AbstractCommand#executeCommand()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getName" id="cmdsh.core/AbstractCommand#getName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="performCommand" id="cmdsh.core/AbstractCommand#performCommand(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="cmdsh.core/ICommand&lt;-cmdsh.core/AbstractCommand" source="//@children.5" target="//@children.1" targetEnd="//@children.5/@sourceConnections.0/@children.1" sourceEnd="//@children.5/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="138,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="18,132"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="cmdsh.core/IParamsParser@parser+cmdsh.core/AbstractCommand@" source="//@children.5" target="//@children.9" targetEnd="//@children.5/@sourceConnections.1/@children.2" label="//@children.5/@sourceConnections.1/@children.0" sourceEnd="//@children.5/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,15" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,33" id="cmdsh.core/IParamsParser@parser+cmdsh.core/AbstractCommand@|cmdsh.core/AbstractCommand#" attachSource="true" roleLabel="//@children.5/@sourceConnections.1/@children.1/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" location="263,251" size="0,15" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="parser" location="126,63" id="cmdsh.core/IParamsParser@parser+cmdsh.core/AbstractCommand@|cmdsh.core/IParamsParser#parser" multiplicityLabel="//@children.5/@sourceConnections.1/@children.2/@children.1" roleLabel="//@children.5/@sourceConnections.1/@children.2/@children.0" aggregationKind="Aggregration" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" ~ parser" location="167,251" size="49,15" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="167,280" size="20,15" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cmdsh.core/IArgument@args+cmdsh.core/AbstractCommand@" source="//@children.5" target="//@children.6" targetEnd="//@children.5/@sourceConnections.2/@children.2" label="//@children.5/@sourceConnections.2/@children.0" sourceEnd="//@children.5/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,15" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="157,129" id="cmdsh.core/IArgument@args+cmdsh.core/AbstractCommand@|cmdsh.core/AbstractCommand#" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="args" location="0,120" id="cmdsh.core/IArgument@args+cmdsh.core/AbstractCommand@|cmdsh.core/IArgument#args" multiplicityLabel="//@children.5/@sourceConnections.2/@children.2/@children.1" roleLabel="//@children.5/@sourceConnections.2/@children.2/@children.0" aggregationKind="Aggregration" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - args" location="513,347" size="35,15" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="543,376" size="5,15" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.5/@sourceConnections.2 //@children.8/@sourceConnections.0 //@children.7/@sourceConnections.0" name="IArgument" location="555,249" size="127,132" id="cmdsh.core/IArgument" runTimeClassModel="getValue(),getName(),parse([Ljava.lang.String;I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="110,51">
+      <children xsi:type="editmodel:MethodEditModel" name="getName" id="cmdsh.core/IArgument#getName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getValue" id="cmdsh.core/IArgument#getValue()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="parse" id="cmdsh.core/IArgument#parse([Ljava.lang.String;I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ArgFlagOptional" location="465,443" size="137,134" id="cmdsh.args/ArgFlagOptional" runTimeClassModel="getValue(),getName(),ArgFlagOptional(Ljava.lang.String;),parse([Ljava.lang.String;I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="178,68">
+      <children xsi:type="editmodel:MethodEditModel" name="ArgFlagOptional" id="cmdsh.args/ArgFlagOptional#ArgFlagOptional(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getName" id="cmdsh.args/ArgFlagOptional#getName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getValue" id="cmdsh.args/ArgFlagOptional#getValue()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="parse" id="cmdsh.args/ArgFlagOptional#parse([Ljava.lang.String;I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="cmdsh.core/IArgument&lt;-cmdsh.args/ArgFlagOptional" source="//@children.7" target="//@children.6" targetEnd="//@children.7/@sourceConnections.0/@children.1" sourceEnd="//@children.7/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="113,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="23,132"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ArgWithoutNameMandatory" location="615,443" size="215,185" id="cmdsh.args/ArgWithoutNameMandatory" runTimeClassModel="getValue(),getName(),ArgWithoutNameMandatory(Ljava.lang.String;),name,value,parse([Ljava.lang.String;I),find(Ljava.lang.Iterable;Lcollect.Predicate;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="77,34">
+      <children xsi:type="editmodel:AttributeEditModel" name="name" id="cmdsh.args/ArgWithoutNameMandatory#name"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="value" id="cmdsh.args/ArgWithoutNameMandatory#value"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="273,85">
+      <children xsi:type="editmodel:MethodEditModel" name="ArgWithoutNameMandatory" id="cmdsh.args/ArgWithoutNameMandatory#ArgWithoutNameMandatory(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="find" id="cmdsh.args/ArgWithoutNameMandatory#find(Ljava.lang.Iterable;Lcollect.Predicate;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getName" id="cmdsh.args/ArgWithoutNameMandatory#getName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getValue" id="cmdsh.args/ArgWithoutNameMandatory#getValue()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="parse" id="cmdsh.args/ArgWithoutNameMandatory#parse([Ljava.lang.String;I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="cmdsh.core/IArgument&lt;-cmdsh.args/ArgWithoutNameMandatory" source="//@children.8" target="//@children.6" targetEnd="//@children.8/@sourceConnections.0/@children.1" sourceEnd="//@children.8/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="33,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="93,132"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.5/@sourceConnections.1 //@children.11/@sourceConnections.0" name="IParamsParser" location="34,210" size="126,98" id="cmdsh.core/IParamsParser" runTimeClassModel="parse(Ljava.lang.String;Ljava.lang.Iterable;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="306,17">
+      <children xsi:type="editmodel:MethodEditModel" name="parse" id="cmdsh.core/IParamsParser#parse(Ljava.lang.String;Ljava.lang.Iterable;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.0 //@children.10/@sourceConnections.1" name="Context" location="189,0" size="131,219" id="cmdsh.core/Context" runTimeClassModel="get(Ljava.util.Scanner;),getName(),add(Lcmdsh.core.ICommand;Ljava.util.Scanner;),get(Ljava.lang.String;),getSubContexts(),getCommand(),name,add(Lcmdsh.core.ICommand;),Context(Ljava.lang.String;[Lcmdsh.core.ICommand;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="77,17">
+      <children xsi:type="editmodel:AttributeEditModel" name="name" id="cmdsh.core/Context#name"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="108,136">
+      <children xsi:type="editmodel:MethodEditModel" name="Context" id="cmdsh.core/Context#Context(Ljava.lang.String;[Lcmdsh.core.ICommand;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="add" id="cmdsh.core/Context#add(Lcmdsh.core.ICommand;Ljava.util.Scanner;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="add" id="cmdsh.core/Context#add(Lcmdsh.core.ICommand;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="get" id="cmdsh.core/Context#get(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="get" id="cmdsh.core/Context#get(Ljava.util.Scanner;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCommand" id="cmdsh.core/Context#getCommand()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getName" id="cmdsh.core/Context#getName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSubContexts" id="cmdsh.core/Context#getSubContexts()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="cmdsh.core/ICommand@cmd+cmdsh.core/Context@" source="//@children.10" target="//@children.1" targetEnd="//@children.10/@sourceConnections.0/@children.2" label="//@children.10/@sourceConnections.0/@children.0" sourceEnd="//@children.10/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,15" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="131,96" id="cmdsh.core/ICommand@cmd+cmdsh.core/Context@|cmdsh.core/Context#" attachSource="true" roleLabel="//@children.10/@sourceConnections.0/@children.1/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" location="327,74" size="0,15" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="cmd" location="0,66" id="cmdsh.core/ICommand@cmd+cmdsh.core/Context@|cmdsh.core/ICommand#cmd" multiplicityLabel="//@children.10/@sourceConnections.0/@children.2/@children.1" roleLabel="//@children.10/@sourceConnections.0/@children.2/@children.0" aggregationKind="Aggregration" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - cmd" location="349,74" size="34,15" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="363,103" size="20,15" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="cmdsh.core/Context@ctxs+cmdsh.core/Context@" source="//@children.10" target="//@children.10" targetEnd="//@children.10/@sourceConnections.1/@children.2" label="//@children.10/@sourceConnections.1/@children.0" sourceEnd="//@children.10/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,15" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ctxs" location="0,10" id="cmdsh.core/Context@ctxs+cmdsh.core/Context@|cmdsh.core/Context#ctxs" anchorKind="FixedAtEdge" attachSource="true" multiplicityLabel="//@children.10/@sourceConnections.1/@children.1/@children.1" roleLabel="//@children.10/@sourceConnections.1/@children.1/@children.0" aggregationKind="Aggregration" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - ctxs" location="151,17" size="31,15" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="177,-12" size="5,15" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,0" id="cmdsh.core/Context@ctxs+cmdsh.core/Context@|cmdsh.core/Context#" anchorKind="FixedAtEdge">
+        <children xsi:type="editmodel:QualifierAttributeEditModel" name="key" location="189,-19" size="33,24" id=""/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ParamsParserOrdered" location="15,345" size="182,83" id="cmdsh.parsers/ParamsParserOrdered" runTimeClassModel="parse(Ljava.lang.String;Ljava.lang.Iterable;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="53,17">
+      <children xsi:type="editmodel:MethodEditModel" name="parse" id="cmdsh.parsers/ParamsParserOrdered#parse(Ljava.lang.String;Ljava.lang.Iterable;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="cmdsh.core/IParamsParser&lt;-cmdsh.parsers/ParamsParserOrdered" source="//@children.11" target="//@children.9" targetEnd="//@children.11/@sourceConnections.0/@children.1" sourceEnd="//@children.11/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="81,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="62,98"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=3;Product=eUML2" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>
