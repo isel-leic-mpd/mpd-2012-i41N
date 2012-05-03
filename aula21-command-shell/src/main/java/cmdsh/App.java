@@ -32,8 +32,10 @@ import cmdsh.commands.IoUnzip;
 import cmdsh.commands.IoZip;
 import cmdsh.core.CmdPrintOnBillboard;
 import cmdsh.core.CmdPrintTime;
+import cmdsh.core.CommandEvent;
 import cmdsh.core.CommandObserver;
 import cmdsh.core.Context;
+import cmdsh.core.IArgument;
 import cmdsh.core.ICommand;
 import cmdsh.core.UnrecognizedContext;
 import static java.lang.System.in; 
@@ -56,15 +58,21 @@ public class App {
 		//
 		final Billboard bb = Billboard.launch();
 		CommandObserver o1 = new CommandObserver() {
-			public void cmdPerformed(String cmdName) {
-				System.out.println(format.format(cal.getTime()));
+			public void cmdPerformed(CommandEvent e) {
+				System.out.println(format.format(cal.getTime()) + "parser = " + e.parser );
 			}
 		};
 		CommandObserver o2 = new CommandObserver() {
-			public void cmdPerformed(String cmdName) {
+			public void cmdPerformed(CommandEvent e) {
 				bb.addText("-------------------------");
 				bb.addText(format.format(cal.getTime()));
+				String cmdName = e.cmdName + "(";
+				for (IArgument a : e.args) {
+					cmdName += a.getName() + ",";
+				}
+				cmdName += ")";
 				bb.addText("performed: " + cmdName);
+				
 			}
 		};
 

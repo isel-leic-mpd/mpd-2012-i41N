@@ -20,6 +20,10 @@ public abstract class AbstractCommand implements ICommand{
 	 * @uml.associationEnd aggregation="shared" inverse="cmdsh.core.IArgument" multiplicity="(0 -1)" 
 	 */
 	private final List<IArgument> args = new LinkedList<IArgument>();
+	/** 
+	 * @uml.property name="obs"
+	 * @uml.associationEnd aggregation="shared" inverse="cmdsh.core.CommandObserver" multiplicity="(0 -1)" 
+	 */
 	private final Collection<CommandObserver> obs = new LinkedList<CommandObserver>(); 
 
 	public void addObserver(CommandObserver o){
@@ -32,7 +36,7 @@ public abstract class AbstractCommand implements ICommand{
 
 	public void notifyObservers(){
 		for (CommandObserver o : obs) {
-			o.cmdPerformed(this.getName());
+			o.cmdPerformed(new CommandEvent(this.getName(), this.args(), parser));
 		}
 	}
 	public AbstractCommand(String name, IParamsParser parser, IArgument[] arrArgs, CommandObserver...obs) {
