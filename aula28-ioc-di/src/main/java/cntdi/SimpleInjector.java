@@ -30,7 +30,13 @@ public class SimpleInjector implements IInjector{
 						return new IScopedBindingBuilder() {
 							@Override
 							public void in(IScope scope) {
-								// TO DO
+								IProvider<S> prov = (IProvider<S>) providers.get(implClass);
+								if(prov.getClass() == ProviderMultiple.class){
+									prov = scope.scope(prov);
+									providers.put(implClass, prov);
+								}
+								final IBinding<T, S> b = new SimpleBinding<T,S>(key, prov);
+								bindings.put(key, b);
 							}							
 						};
 					}					
